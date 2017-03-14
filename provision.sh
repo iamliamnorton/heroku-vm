@@ -1,9 +1,9 @@
 #!/bin/bash -ex
 
 sudo \
-  BUNDLER_VER="1.11.2" \
+  BUNDLER_VER="1.14.6" \
   PHANTOM_JS="phantomjs-1.9.8-linux-x86_64" \
-  RUBY_VER="2.3.0" \
+  RUBY_VER="2.3.3" \
   sh <<'EOF'
 DEBIAN_FRONTEND=noninteractive \
 apt-get update && apt-get -y upgrade &&
